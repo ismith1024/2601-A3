@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|bottom"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/activeChat"
+        android:id="@+id/chatTag" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:background="#EEEEEE"
+        android:layout_height="98dp"
+        android:id="@+id/activeChatTextView"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.89" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/activeUsers"
+        android:id="@+id/usersText"
+        android:textColor="@color/Black" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CCCCCC"
+        android:id="@+id/userSelector"
+        android:spinnerMode="dialog" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5.47"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/sendMessageImageButton"
+            android:src="@drawable/ic_mail_black_24dp"
+            android:background="@color/blue"
+            android:layout_weight="0.31"
+            android:layout_margin="3dp" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/refreshImageButton"
+            android:src="@drawable/ic_refresh_black_24dp"
+            android:background="@color/green"
+            android:layout_weight="0.24"
+            android:layout_margin="3dp" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/messageAllImageButton"
+            android:src="@drawable/ic_announcement_black_24dp"
+            android:background="@color/yellow"
+            android:layout_weight="0.27"
+            android:layout_margin="3dp" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/exitImageButton"
+            android:src="@drawable/ic_exit_to_app_black_24dp"
+            android:background="@color/red"
+            android:layout_margin="3dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Comp2601_A3</string>
+    <string name="ipAddress">Configure IP Address</string>
+    <string name="dot">.</string>
+    <string name="defaultIP1">127</string>
+    <string name="defaultIP2">0</string>
+    <string name="defaultIP3">0</string>
+    <string name="defaultIP4">1</string>
+    <string name="defaultPort">3010</string>
+    <string name="port">Configure Port</string>
+    <string name="defaultName">your ID</string>
+    <string name="userid">User ID</string>
+    <string name="signin">Sign In</string>
+    <string name="sendmessage">SEND</string>
+    <string name="cancel">CANCEL</string>
+    <string name="signout">Sign Out</string>
+    <string name="clearchat">Clear Chat</string>
+    <string name="activeUsers">Active Users</string>
+    <string name="activeChat">Active Chat</string>
+    <string name="message">Send Message</string>
+    <string name="everyone">everyone</string>
+</resources>
